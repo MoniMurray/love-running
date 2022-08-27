@@ -14,7 +14,8 @@ body {
 
 /* Headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Neuton, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -32,9 +33,11 @@ h1, h2 {
     font-size: 110%;
     letter-spacing: 4px;
     float: right;
-        
+
 }
-#menu, #logo {
+
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -42,7 +45,7 @@ h1, h2 {
     float: left;
     list-style-type: none;
     margin-right: 10px;
-    
+
 }
 
 #menu a {
@@ -56,4 +59,34 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+/* hero image*/
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero-image.webp) no-repeat center center;
+
+
+/* animates hero image on loading page */
+
+    animation-name: hero_zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+/* creating concept of image zoom */
+
+@keyframes hero_zoom {
+    from{
+        transform: scale(1);
+    }
+
+    to{
+        transform: scale(1.1);
+    }
 }
