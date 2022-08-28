@@ -246,3 +246,17 @@ footer {
     margin: 1%;
 
 }
+
+/* Gallery */
+
+#photos {
+    clear: both;
+    column-count: 4;
+    column-gap: 0;
+    line-height: 0;
+
+}
+
+#photos > img {
+    width: 100%;
+}
