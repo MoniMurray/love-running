@@ -136,7 +136,6 @@ h2 {
     float: right;
     padding-top: 30px;
     width: 33%;
-    background-color: silver;
 }
 
 #center-about {
@@ -154,6 +153,15 @@ hr {
 .left-about-heading {
     width: 60%;
     float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
