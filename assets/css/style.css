@@ -25,6 +25,7 @@ h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* navigation */
@@ -60,7 +61,9 @@ h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 /* hero image*/
+
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -115,4 +118,30 @@ h2 {
     right: 150px;
 
     position: absolute;
+}
+
+/* club ethos section */
+
+#club-ethos {
+    height: 600px;
+}
+
+#left-about {
+    float: left;
+    padding-top: 30px;
+    width: 33%;
+    background-color: blue;
+}
+
+#right-about {
+    float: right;
+    padding-top: 30px;
+    width: 33%;
+    background-color: silver;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
 }
