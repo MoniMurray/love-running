@@ -167,3 +167,11 @@ hr {
     margin-bottom: 50px;
 
 }
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+#right-about p {
+    text-align: right;
+}
