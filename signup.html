@@ -33,22 +33,25 @@
     <section class="form-section">
         <form action="https://formdump.codeinstitute.net/" method="POST">
             <h2>Let's get you signed up!</h2>
-            <label for="first-name">First Name</label>
-            <input id="first-name" type="text" name="first-name">
-            <label for="last-name">Last Name</label>
-            <input id="last-name" type="text" name="last-name">
-            <label for="email-address">Email address</label>
-            <input id="email-address" type="email" name="email">
 
-            <label for="road_running">Road Running</label>
-            <input type="radio" id="road_running" name="fav_terrain" value="road_running">
-            <label for="trail_running">Trail Running</label>
-            <input type="radio" id="trail_running" name="fav_terrain" value="trail_running">
-            <label for="road_running_and_trail_running">Road Running and Trail Running</label>
-            <input type="radio" id="road_running_and_trail_running" name="fav_terrain" value="road_running_and_trail_running">
+            <!-- Personal details -->
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" name="first_name" required>
+            <label for="lname">Last Name</label>
+            <input id="lname" type="text" name="last_name" required>
+            <label for="email">Email address</label>
+            <input id="email" type="email" name="email_address" required>
             
+            <!-- Running Preference Radio input fields -->
+            <label for="road">Road</label>
+            <input type="radio" id="road" name="running_preference" value="road" required>
+            <label for="trail">Trail</label>
+            <input type="radio" id="trail" name="running_preference" value="trail">
+            <label for="both">Both</label>
+            <input type="radio" id="both" name="running_preference" value="both">
             
-            <input type="submit" value="Let's run">
+            <!-- Styled Submit button -->
+            <input type="submit" value="Let's run!">
         </form>
         
     </section>
