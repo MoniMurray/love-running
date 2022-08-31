@@ -278,7 +278,9 @@ footer {
     background-color: rgba(60, 60, 60, 0.6);
     width: 400px;
     position: absolute;
-    
+    left: 10%;
+    padding: 30px;
+
 }
 
 /* Media Query */
