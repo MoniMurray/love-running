@@ -298,7 +298,7 @@ footer {
     border-radius: 2px;
 }
 
-/* Add hover event */
+/* Add hover event to text/email input fields */
 
 .text-input:hover {
     border-color: #f16c6b;
@@ -316,6 +316,14 @@ footer {
     color: #fafafa;
     display: block;
 }
+
+/* Add hover event to Submit button */
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
 /* Media Query */
 
 /* Styling for larger to medium screen size with view ports max-width 1200px or below */
